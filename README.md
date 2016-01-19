@@ -34,7 +34,7 @@ var page_list = { "pages":[
  첫 로딩시 URL이 있는 리스트 중에 첫 번째 html 파일이 먼저 프레임에 노출됩니다.
 
  
- ## 모바일로 보기
+## 모바일로 보기
 
 기본적으로 퍼블리싱 리스트 파일은 상단 파일명 주소바 영역의 데스크탑 보기와 모바일 보기 버튼으로 선택하여 확인이 가능합니다.
 
@@ -44,8 +44,8 @@ var mobile = true or false;
 ```
 
  
- ## 저작권
- [MIT License](https://opensource.org/licenses/MIT)
+## 저작권
+[MIT License](https://opensource.org/licenses/MIT)
 
 - **라이선스 및 저작권 명시**(저작권자 명시는 CSS 주석 참조)
 - 상업적 이용 가능
