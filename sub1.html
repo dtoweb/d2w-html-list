@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Elements 기본 디자인</title>
+	<style>
+	body {
+		background-color: skyblue;
+	}
+	</style>
+
+</head>
+<body>
+		
+
+<div class="half-box eng">
+	<p><!-- Sample Content to Plugin to Template --></p>
+	<p>The purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+	
+	<hr>
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<h6>Heading 6</h6>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+	
+	<h2 id="paragraph">Paragraph</h2>
+	<p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+	<p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+	
+	<h2 id="list_types">List Types</h2>
+	<h3>Definition List</h3>
+	<dl>
+		<dt>Definition List Title</dt>
+		<dd>This is a definition list division.</dd>
+	</dl>
+	<h3>Ordered List</h3>
+	<ol>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+	</ol>
+	<h3>Unordered List</h3>
+	<ul>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+	</ul>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+
+	<hr>
+
+	<h2 id="form_elements">Forms</h2>
+	<fieldset>
+		<legend>Legend</legend>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.</p>
+		<form lpformnum="1">
+			<h2>Form Element</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</p>
+			<p>
+				<label for="text_field">Text Field:</label><br>
+				<input type="text" id="text_field" autocomplete="off">
+			</p>
+			<p>
+				<label for="text_area">Text Area:</label><br>
+				<textarea id="text_area"></textarea>
+			</p>
+			<p>
+				<label for="select_element">Select Element:</label><br>
+				<select name="select_element">
+					<optgroup label="Option Group 1">
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+						<option value="3">Option 3</option>
+					</optgroup>
+					<optgroup label="Option Group 2">
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+						<option value="3">Option 3</option>
+					</optgroup>
+				</select>
+			</p>
+			<p>
+				<label for="radio_buttons">Radio Buttons:</label>
+			</p>
+			<p>
+				<input type="radio" class="radio" name="radio_button" value="radio_1"> Radio 1<br>
+				<input type="radio" class="radio" name="radio_button" value="radio_2"> Radio 2<br>
+				<input type="radio" class="radio" name="radio_button" value="radio_3"> Radio 3
+			</p>
+			<p>
+				<label for="checkboxes">Checkboxes:</label>
+			</p>
+			<p>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_1"> Radio 1<br>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_2"> Radio 2<br>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_3"> Radio 3
+			</p>
+			<p>
+				<label for="password">Password:</label>
+			</p>
+			<p>
+				<input type="password" class="password" name="password" autocomplete="off">
+			</p>
+			<p>
+				<label for="file">File Input:</label><br>
+				<input type="file" class="file" name="file">
+			</p>
+			<p>
+				<input class="button" type="reset" value="Clear">
+				<input class="button" type="submit" value="Submit">
+			</p>
+		</form>
+	</fieldset>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+
+	<h2 id="tables">Tables</h2>
+	<table cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<th>Table Header 1</th>
+				<th>Table Header 2</th>
+				<th>Table Header 3</th>
+			</tr>
+			<tr>
+				<td>Division 1</td>
+				<td>Division 2</td>
+				<td>Division 3</td>
+			</tr>
+			<tr class="even">
+				<td>Division 1</td>
+				<td>Division 2</td>
+				<td>Division 3</td>
+			</tr>
+			<tr>
+				<td>Division 1</td>
+				<td>Division 2</td>
+				<td>Division 3</td>
+			</tr>
+		</tbody>
+	</table>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+
+	<h2 id="misc">Misc Stuff – abbr, acronym, pre, code, sub, sup, etc.</h2>
+	<p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque <code>aliquam</code>. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr></p>
+	
+	<pre>
+		<p>
+		Lorem ipsum dolor sit amet,
+		 consectetuer adipiscing elit.
+		 Nullam dignissim convallis est.
+		 Quisque aliquam. Donec faucibus. 
+		Nunc iaculis suscipit dui. 
+		Nam sit amet sem. 
+		Aliquam libero nisi, imperdiet at,
+		 tincidunt nec, gravida vehicula,
+		 nisl. 
+		Praesent mattis, massa quis 
+		luctus fermentum, turpis mi 
+		volutpat justo, eu volutpat 
+		enim diam eget metus. 
+		Maecenas ornare tortor. 
+		Donec sed tellus eget sapien
+		 fringilla nonummy. 
+		<acronym title="National Basketball Association">NBA</acronym> 
+		Mauris a ante. Suspendisse
+		 quam sem, consequat at, 
+		commodo vitae, feugiat in, 
+		nunc. Morbi imperdiet augue
+		 quis tellus.  
+		<abbr title="Avenue">AVE</abbr>
+		</p>
+	</pre>
+	<blockquote>
+		<p>
+		“This stylesheet is going to help so freaking much.” <br>-Blockquote
+		</p>
+	</blockquote>
+	<p><small><a href="#wrapper">[top]</a></small><br>
+	<!-- End of Sample Content --></p>
+
+</div>
+<div class="half-box kor">
+	<p><!-- Sample Content to Plugin to Template --></p>
+	<p>군영과 그들에게 우리 가치를 무엇을 이것을 이것이다. 공자는 같이 보이는 발휘하기 곳으로 때문이다. 수 있으며, 그들의 있는가? 노년에게서 황금시대를 있다. 이상은 희망의 풍부하게 목숨이 끝에 싸인 봄바람이다.</p>
+	
+	<hr>
+
+	<h1>제목 1</h1>
+	<h2>제목 2</h2>
+	<h3>제목 3</h3>
+	<h4>제목 4</h4>
+	<h5>제목 5</h5>
+	<h6>제목 6</h6>
+	<p><small><a href="#wrapper">[상단]</a></small></p>
+	
+	<hr>
+	
+	<h2 id="paragraph">문장</h2>
+	<p>천자만홍이 않는 청춘의 위하여 <a href="#" title="test link">위하여서</a> 물방아 영락과 살았으며, 웅대한 인류의 노래하며 속에서 약동하다. 긴지라 타오르고 노래하며 보라. 그들의 이것을 우리 되려니와, 그들에게 생의 아름다우냐? 철환하였는가 피어나기 붙잡아 그와 트고, 무엇을 사랑의 끓는다. 든 같으며, 그림자는 없는 얼음에 말이다. 그들에게 구하지 않는 몸이 같은 평화스러운 힘있다. 평화스러운 같이, 천자만홍이 가장 낙원을 때문이다. 온갖 때까지 있는 구할 것이다.</p>
+	<p>이상의 인생을 미인을 구하지 같지 위하여서, <em>얼음에 바이며</em>, 끓는다. 만천하의 불어 열락의 같이, 뿐이다. 그들은 스며들어 어디 과실이 무엇을 고행을 생생하며, 봄바람이다. 천하를 가는 수 꽃 이상은 인류의 너의 말이다. 그러므로 같이, 청춘의 보배를 두기 속에 청춘의 보라. 때까지 돋고, 가슴에 뜨고, 가치를 황금시대다. 할지니, 청춘이 싶이 그들은 만천하의 아니다.</p>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+	
+	<h2 id="list_types">리스트</h2>
+	<h3>정의 리스트</h3>
+	<dl>
+		<dt>정의 리스트 타이틀</dt>
+		<dd>정의 리스트 디스크립션</dd>
+	</dl>
+	<h3>순서 리스트</h3>
+	<ol>
+		<li>리스트 항목 1</li>
+		<li>리스트 항목 2</li>
+		<li>리스트 항목 3</li>
+	</ol>
+	<h3>비순서 리스트</h3>
+	<ul>
+		<li>리스트 항목 1</li>
+		<li>리스트 항목 2</li>
+		<li>리스트 항목 3</li>
+	</ul>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+
+	<hr>
+
+	<h2 id="form_elements">폼</h2>
+	<fieldset>
+		<legend>폼 타이틀</legend>
+		<p>할지라도 그들에게 보이는 그들은 불어 뛰노는 그들은 사막이다. 같이 뛰노는 청춘 않는 같은 인생에 스며들어 봄바람이다. 커다란 천하를 곳이 길지 따뜻한 그리하였는가? 밥을 인생을 인생을 석가는 붙잡아 들어 튼튼하며, 그리하였는가? 길을 가슴이 소담스러운 트고, 따뜻한 황금시대다.</p>
+		<form lpformnum="1">
+			<h2>폼 요소</h2>
+			<p>위하여 자신과 그와 바로 것이다. 그들을 우는 역사를 얼마나 이상 이것이다. 용감하고 얼마나 거선의 목숨이 그들은 위하여서 보이는 청춘 쓸쓸하랴?</p>
+			<p>
+				<label for="text_field">텍스트 필드:</label><br>
+				<input type="text" id="text_field" autocomplete="off"></p>
+			<p>
+				<label for="text_area">텍스트 아레아:</label><br>
+				<textarea id="text_area"></textarea></p>
+			<p>
+				<label for="select_element">셀렉박스:</label><br>
+				<select name="select_element">
+					<optgroup label="Option Group 1">
+						<option value="1">옵션 1</option>
+						<option value="2">옵션 2</option>
+						<option value="3">옵션 3</option>
+					</optgroup>
+					<optgroup label="Option Group 2">
+						<option value="1">옵션 1</option>
+						<option value="2">옵션 2</option>
+						<option value="3">옵션 3</option>
+					</optgroup>
+				</select>
+			</p>
+			<p>
+				<label for="radio_buttons">라디오 버튼:</label></p>
+			<p>
+				<input type="radio" class="radio" name="radio_button" value="radio_1"> 라디오 버튼 1<br>
+				<input type="radio" class="radio" name="radio_button" value="radio_2"> 라디오 버튼 2<br>
+				<input type="radio" class="radio" name="radio_button" value="radio_3"> 라디오 버튼 3
+			</p>
+			<p>
+				<label for="checkboxes">체크박스:</label></p>
+			<p>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_1"> 체크박스 1<br>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_2"> 체크박스 2<br>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_3"> 체크박스 3
+			</p>
+			<p>
+				<label for="password">비밀번호:</label></p>
+			<p>
+				<input type="password" class="password" name="password" autocomplete="off">
+			</p>
+			<p>
+				<label for="file">업로드 :</label><br>
+				<input type="file" class="file" name="file">
+			</p>
+			<p>
+				<input class="button" type="reset" value="리셋"> <input class="button" type="submit" value="보내기">
+			</p>
+		</form>
+	</fieldset>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+
+	<h2 id="tables">테이블</h2>
+	<table cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<th>테이블 제목 1</th>
+				<th>테이블 제목 2</th>
+				<th>테이블 제목 3</th>
+			</tr>
+			<tr>
+				<td>테이블 섹션 1</td>
+				<td>테이블 섹션 2</td>
+				<td>테이블 섹션 3</td>
+			</tr>
+			<tr class="even">
+				<td>테이블 섹션 1</td>
+				<td>테이블 섹션 2</td>
+				<td>테이블 섹션 3</td>
+			</tr>
+			<tr>
+				<td>테이블 섹션 1</td>
+				<td>테이블 섹션 2</td>
+				<td>테이블 섹션 3</td>
+			</tr>
+		</tbody>
+	</table>
+	<p><small><a href="#wrapper">[top]</a></small></p>
+	
+	<hr>
+
+	<h2 id="misc">기타 요소들 – abbr, acronym, pre, code, sub, sup, etc.</h2>
+		<p>그림자는 <sup>위첨자</sup> 미인을 <sub>아래첨자</sub> 물방아 영락과 살았으며, 웅대한 인류의 노래하며 속에서 약동하다. <cite>출처</cite>. 물방아 영락과 살았으며, 웅대한 인류의 노래하며 속에서 약동하다. 긴지라 타오르고 노래하며 보라. 그들의 이것을 우리 되려니와, 그들에게 생의 아름다우냐? 철환하였는가 피어나기 붙잡아 그와 트고, 무엇을 사랑의 끓는다. 든 같으며, 그림자는 없는 얼음에 말이다. 그들에게 구하지 않는 몸이 같은 평화스러운 힘있다. 평화스러운 같이, 천자만홍이 가장 낙원을 때문이다. 온갖 때까지 있는 구할 것이다. <acronym title="National Basketball Association">NBA 약자</acronym> 이상의 인생을 미인을 구하지 같지 위하여서, 얼음에 바이며, 끓는다. <abbr title="Avenue">줄임말</abbr></p>
+		
+		<pre>
+			<p>
+			이상의 인생을 미인을 구하지 
+			같지 위하여서, 
+			얼음에 바이며, 끓는다. 
+			만천하의 불어 열락의 같이, 
+			뿐이다. 
+			그들은 스며들어 어디 과실이 
+			무엇을 고행을 생생하며, 
+			봄바람이다. 
+			천하를 가는 수 꽃 이상은 
+			인류의 너의 말이다. 
+			그러므로 같이, 
+			 청춘의 보배를 두기 속에 청춘의 보라. 
+			 때까지 돋고, 가슴에 뜨고, 
+			가치를 황금시대다. 할지니, 
+			청춘이 싶이 그들은 만천하의 아니다.
+			<acronym title="National Basketball Association">NBA</acronym> 
+			아니한 열락의 못하다 있을 이것이다. 
+			풀밭에 뜨고, 가지에 산야에 영락과 아니한 피고 
+			풍부하게 때문이다.
+			<abbr title="Avenue">AVE</abbr>
+			</p>
+		</pre>
+		<blockquote>
+			<p>
+			"그들에게 생의 아름다우냐? 철환하였는가"<br>-인용구
+			</p>
+		</blockquote>
+	<p><small><a href="#wrapper">[top]</a></small><br>
+	<!-- End of Sample Content --></p>
+
+</div>
+</body>
+</html>

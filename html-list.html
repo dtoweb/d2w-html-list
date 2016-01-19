@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>퍼블리싱 리스트</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="dist/img/publish-by-jun.ico">
+	<link rel="stylesheet" href="dist/html-list-style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="bodyWrap">
+	<div id="header">
+		<h1>Project <span>Title</span></h1>
+		<div class="author-info">
+			<a href="your profile link" target="_blank" class="author-profile" title="프로필 보기"><img src="dist/img/noprofile.gif" alt="프로필 사진"></a>
+			<a href="your profile link" target="_blank" class="author-name" title="프로필 보기">이름</a>
+			<a href="mailto:youremail@email.com" class="author-email" title="메일보내기"><i class="fa fa-paper-plane"></i></a>
+		</div>
+	</div>
+	<div id="side">
+		<h2><i class="fa fa-mobile"></i> <i class="fa fa-desktop"></i> <span id="page_title2">Page title</span> : <span id="page_leng"></span></h2>
+		<div id="urls" class="links"></div>
+	</div>
+	<div id="frame">
+		<div class="ctrl">
+			<button type="button" id="btn_reload" class="btn_ctrl" title="새로고침"><i class="fa fa-refresh"></i></button>
+			<span class="pageurl_box">
+				<input type="text" name="" id="page_url" value="" class="pageurl" readonly>
+				<span id="page_size"></span>
+				<span id="page_title"></span>
+			</span>
+			<button type="button" id="btn_external" class="btn_ctrl" title="새창열기"><i class="fa fa-external-link"></i></button>
+			<button type="button" id="btn_mobile" class="btn_ctrl" title="모바일보기"><i class="fa fa-mobile"></i></button>
+			<button type="button" id="btn_desktop" class="btn_ctrl" title="PC보기"><i class="fa fa-desktop"></i></button>
+		</div>
+		<div class="iframe_wrap">
+			<iframe src="" frameborder="0" id="page_show"></iframe>
+			<button type="button" class="rotate">회전</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="dist/htmi-list-function.js"></script>
+<script>
+var mobile = false;
+var page_list = { "pages":[
+	{"title":"메인페이지","url":""},
+	{"title":"메인화면", "url":"home.html"},
+	{"title":"서브페이지", "url":""},
+	{"title":"서브1", "url":"sub1.html"},
+	{"title":"서브2", "url":"sub2.html"}
+]};
+</script>
+
+</body>
+</html>
