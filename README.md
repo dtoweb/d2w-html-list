@@ -66,4 +66,4 @@ var mobile = true or false;
 - 트위터 https://twitter.com/d2wmaster
 - 이메일 [iyakiggun@gmail.com](mailto:iyakiggun@gmail.com)
 
-감사합니다. 즐거운 코딩 하세요.
+감사합니다. 즐거운 코딩 하세요.^^
